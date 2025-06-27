@@ -15,10 +15,6 @@ A fully responsive Netflix Clone built using React and Firebase. This project re
 3.TMDB API
 4.CSS3 (Custom styling, no CSS frameworks)
 
-📸 Screenshots
-1. Home Page- (./screenshots/home.png)
-2. Login Page- (./screenshots/signup.png)
-3. Sign In page- (./screenshots/signin.png)
    
 🔧 Getting Started
 1. Clone the repo
