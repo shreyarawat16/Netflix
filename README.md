@@ -1,12 +1,43 @@
-# React + Vite
+📺 Netflix Clone
+A fully responsive Netflix Clone built using React and Firebase. This project replicates the Netflix UI and functionality, including authentication, dynamic movie listings, and a responsive layout that works beautifully across devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+1.🔐 Firebase Authentication (Sign Up, Sign In, Logout)
+2.🎬 Dynamic Movie & TV Show Data via TMDB API
+3.🖼️ Hero banner with play/info buttons
+4.📺 Category-wise scrollable movie rows
+5.💡 Fully Responsive (Mobile, Tablet & Desktop)
+6.🔁 Protected Routes and Conditional Rendering
 
-Currently, two official plugins are available:
+Tech Stack
+1.React (with Hooks & Router)
+2.Firebase (Auth + Firestore)
+3.TMDB API
+4.CSS3 (Custom styling, no CSS frameworks)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Screenshots
+1. Home Page- (./screenshots/home.png)
+2. Login Page- (./screenshots/signup.png)
+3. Sign In page- (./screenshots/signin.png)
+   
+Getting Started
+1. Clone the repo
+git clone https://github.com/your-username/netflix-clone.git
+cd netflix-clone
+2. Install dependencies
+npm install
+3. Setup Firebase
+Go to Firebase Console
+Create a new project
+Enable Email/Password Authentication
+Create a Firestore DB (if needed)
+Replace config in firebase.js with your project's credentials
+4. Setup TMDB API
+Go to TMDB API
+Create a new API Key (Bearer Token)
+Replace the token in the code with your own
 
-## Expanding the ESLint configuration
+Run the App
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
