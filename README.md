@@ -2,25 +2,25 @@
 A fully responsive Netflix Clone built using React and Firebase. This project replicates the Netflix UI and functionality, including authentication, dynamic movie listings, and a responsive layout that works beautifully across devices.
 
 🚀 Features
-1.🔐 Firebase Authentication (Sign Up, Sign In, Logout)
-2.🎬 Dynamic Movie & TV Show Data via TMDB API
-3.🖼️ Hero banner with play/info buttons
-4.📺 Category-wise scrollable movie rows
-5.💡 Fully Responsive (Mobile, Tablet & Desktop)
-6.🔁 Protected Routes and Conditional Rendering
+1. Firebase Authentication (Sign Up, Sign In, Logout)
+2. Dynamic Movie & TV Show Data via TMDB API
+3. Hero banner with play/info buttons
+4. Category-wise scrollable movie rows
+5. Fully Responsive (Mobile, Tablet & Desktop)
+6. Protected Routes and Conditional Rendering
 
-Tech Stack
+🛠️ Tech Stack
 1.React (with Hooks & Router)
 2.Firebase (Auth + Firestore)
 3.TMDB API
 4.CSS3 (Custom styling, no CSS frameworks)
 
-Screenshots
+📸 Screenshots
 1. Home Page- (./screenshots/home.png)
 2. Login Page- (./screenshots/signup.png)
 3. Sign In page- (./screenshots/signin.png)
    
-Getting Started
+🔧 Getting Started
 1. Clone the repo
 git clone https://github.com/your-username/netflix-clone.git
 cd netflix-clone
@@ -37,7 +37,7 @@ Go to TMDB API
 Create a new API Key (Bearer Token)
 Replace the token in the code with your own
 
-Run the App
+🚀 Run the App
 npm run dev
 
 
